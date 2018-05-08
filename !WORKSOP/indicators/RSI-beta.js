@@ -1,7 +1,4 @@
 
-const util = require('util');
-var config = require('../core/util.js').getConfig();
-var log = require('../core/log');
 // Let's create our own method
 var method = {};
 
@@ -86,8 +83,6 @@ method.update = function(candle) {
 	}else{
 		this.oldrsi = rsi;	
 	}
-	
-	console.log("rsi = "+ rsi);
 	
 }
 

@@ -42,13 +42,6 @@ var calculateHeikin = function(previous, current) {
   // your magic
 }
 
-
-method.update = function(candle) {
-
-} 
-
-
-
 Indicator.prototype.update = function (candle) {
   var currentClose = candle.close;
 
@@ -59,8 +52,6 @@ Indicator.prototype.update = function (candle) {
   }
 
   this.previousCandle = candle;
-
-
 }
 
 module.exports = Indicator;
