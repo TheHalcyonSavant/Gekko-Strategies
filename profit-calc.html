@@ -1,0 +1,13 @@
+<script>
+var invest = 2000; //euros
+const returnPerc = {
+	max: 1.5,
+	min: -0.5
+};
+const months = 12;
+const activeDaysPerMonth = 10;
+for (var i = 0; i < months * activeDaysPerMonth; i++) {
+	invest += invest * (Math.random() * (returnPerc.max - returnPerc.min) + returnPerc.min) / 100;
+}
+document.write('Return: ' + invest);
+</script>

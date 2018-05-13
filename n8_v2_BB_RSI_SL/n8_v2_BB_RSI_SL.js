@@ -457,7 +457,7 @@ method.check = function(candle) {
                   ManageSize();
                 }
                 
-                if (((global.sig0 === false  && percentvar > (low - lowup) && (hasbought === false) && (this.HACandle.xclose > previousprice))) || (hasbought===false && this.indicators.rsi.result < this.settings.thresholds.low && StochRSIsaysBUY) || (Price <= BB.lower) ) 
+                if (((global.sig0 === false  && percentvar > (low - lowup) && (hasbought === false) && (this.HACandle.xclose > previouspred))) || (hasbought===false && this.indicators.rsi.result < this.settings.thresholds.low && StochRSIsaysBUY) || (Price <= BB.lower) ) 
                    {
                          log.debug("IA - Buy - AT: \t\t",this.HACandle.xclose);
                         //  log.debug("Variance :",Variance);
@@ -490,7 +490,7 @@ method.check = function(candle) {
                       this.SLActive == false;                    
                       return this.advice('short');
                 } 
-                previousprice = this.HACandle.xclose;                          
+                previouspred = this.HACandle.xclose;                          
                           
           }
 };
