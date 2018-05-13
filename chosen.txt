@@ -1,0 +1,42 @@
+Strategy                    | Bear | Bull
+------------------------------------------
+BBRSI                         No
+bestone_updated_hardcoded     No
+BodhiDI_public                No
+bryanbeck                     No
+buyatsellat_ui                No
+custom_CCI                    No
+CUSTOM_RSI                    No
+Dave                          No
+DEMA                          No
+DEMACrossover                 No
+DI                            No
+DynBuySell                    No
+EMA_OR_PRICE_DIV              No
+EMACrossover                  No
+EMADIV                        No
+EMADIV2                       No
+FIXPRICE                      No
+jazzbre                       No
+MACD_1520024643               No
+MK_RSI_BULL_BEAR              No
+mounirs_esto                  Yes (debug with docker attach on UI)
+mounirs-ga-version-1          No
+mounirs-ga-version-2          No
+n8                            No
+n8_v2                         No
+n8_v2_BB_RSI_SL               No
+NEO                           No
+neuralnet_v2                  No
+NN_ADX_RSI                    No
+RSI_BB_ADX_Peak               Yes
+RSI_BULL_BEAR                 No
+RSI_BULL_BEAR_ADX             No
+RSI_BULL_BEAR_ADX_PINGPONG    No
+RSI_Bull_Bear_Adx_Stop        No
+rsidyn                        No
+RsiStopLoss                   No
+scarface_v2  (12:69)          Yes
+Supertrend_Gab0               No
+TEMA                          No
+x2_rsi                        No
