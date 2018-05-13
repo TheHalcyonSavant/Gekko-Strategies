@@ -24,5 +24,5 @@ cp $i $g/config/strategies/
 done
 
 unset IFS
-sed -i "s/strategies = qw(.*);/strategies = qw($1);/" ../backtest-config.pl
-echo "backtest-config updated"
+#sed -i "s/strategies = qw(.*);/strategies = qw($1);/" ../backtest-config.pl
+#echo "backtest-config updated"

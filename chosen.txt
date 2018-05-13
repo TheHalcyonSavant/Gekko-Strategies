@@ -39,4 +39,5 @@ RsiStopLoss                   No
 scarface_v2  (12:69)          Yes
 Supertrend_Gab0               No
 TEMA                          No
+w2                            No
 x2_rsi                        No

@@ -24,5 +24,5 @@ rm $g/config/strategies/$i
 done
 
 unset IFS
-sed -i "s/$1//" ../backtest-config.pl
-echo "backtest-config updated"
+#sed -i "s/$1//" ../backtest-config.pl
+#echo "backtest-config updated"
